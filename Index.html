@@ -7,76 +7,118 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0a0a0a;
+      background-color: #0c0c0c;
       color: #ffffff;
     }
     header {
-      background-color: #111111;
+      background-color: #111;
       padding: 20px;
       text-align: center;
       border-bottom: 2px solid #444;
     }
+    header img {
+      width: 80px;
+      height: auto;
+    }
     header h1 {
-      margin: 0;
+      margin: 10px 0 5px;
       font-size: 2.5rem;
-      letter-spacing: 1px;
+      color: #f7d43f;
     }
-    header p {
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      background-color: #1a1a1a;
+      padding: 15px 0;
+      border-bottom: 1px solid #444;
+    }
+    nav a {
+      text-decoration: none;
+      color: #f7d43f;
+      font-weight: bold;
       font-size: 1rem;
-      color: #aaa;
     }
-    .motto-banner {
-      background: linear-gradient(145deg, #1a1a1a, #000);
-      padding: 50px 20px;
+    .banner {
+      background-image: url('https://i.ibb.co/ypNqQW1/crown-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 80px 20px;
       text-align: center;
-      border-top: 2px solid #444;
-      border-bottom: 2px solid #444;
     }
-    .motto-banner h2 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-      color: #e0e0e0;
+    .banner h2 {
+      font-size: 2.5rem;
+      color: #fff;
+      text-shadow: 2px 2px 8px #000;
     }
-    .motto-banner p {
-      font-size: 1.1rem;
-      color: #888;
+    .banner p {
+      font-size: 1.2rem;
+      color: #ddd;
+      text-shadow: 1px 1px 5px #000;
     }
     .section {
       padding: 40px 20px;
-      text-align: center;
+      max-width: 1000px;
+      margin: auto;
     }
     .section h3 {
-      font-size: 1.5rem;
+      font-size: 2rem;
+      color: #f7d43f;
       margin-bottom: 15px;
+    }
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #f7d43f;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 20px;
     }
     footer {
       background-color: #111;
       padding: 20px;
       text-align: center;
-      font-size: 0.9rem;
-      color: #777;
-      border-top: 1px solid #444;
+      color: #888;
+      border-top: 1px solid #333;
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="https://i.ibb.co/Vp5LsZv/crown-logo.png" alt="Light Mnsh Logo">
     <h1>LIGHT MNSH COMMUNITY</h1>
-    <p>Power. Prestige. PvP.</p>
-  </header>  <div class="motto-banner">
+  </header>  <nav>
+    <a href="#vip">VIP Crown</a>
+    <a href="#shadow">Shadow Crowners</a>
+    <a href="#sun">SUN SMP</a>
+    <a href="#join">Join Us</a>
+  </nav>  <div class="banner">
     <h2>CROWNERS WILL RISE</h2>
     <p>The throne is not given. It is earned.</p>
-  </div>  <div class="section">
-    <h3>About the Community</h3>
-    <p>A competitive, content-driven Minecraft network for rising PvP warriors and creators. Join ranks, earn your crown, and prove your legacy.</p>
-  </div>  <div class="section">
-    <h3>Ranks & Rewards</h3>
-    <p>Challenger Crown. VIP Crown. Shadow Crowners. And the hidden SUN SMP—reserved for the elite. Rise through ranks by competing and creating.</p>
-  </div>  <div class="section">
+  </div>  <div class="section" id="vip">
+    <h3>VIP Crown</h3>
+    <p>Our elite group of creators and PvP legends. Featuring members like Prince XD, Oggy YT, and rising warriors who earn their crown through both content and combat. VIP Crown holders inspire, lead, and rule the community.</p>
+    <img src="https://i.ibb.co/y6kQ0bB/vip-crown.jpg" alt="VIP Crown" width="100%">
+  </div>  <div class="section" id="shadow">
+    <h3>Shadow Crowners</h3>
+    <p>Top-tier PvP players chosen for their unmatched skills. They battle in secret, climb the leaderboards, and defend their position. Shadow Crowners are feared and respected throughout the community.</p>
+    <a class="button" href="#">View Shadow Crown List</a>
+  </div>  <div class="section" id="sun">
+    <h3>SUN SMP</h3>
+    <p>The ultimate reward. A hidden world reserved for 9 crowned warriors who prove their strength across 7 months. It’s not just a server—it’s a symbol of legacy, only accessible to those who shine the brightest.</p>
+    <img src="https://i.ibb.co/gmvCR8Y/sunsmp.jpg" alt="Sun SMP" width="100%">
+  </div>  <div class="section" id="join">
     <h3>Become a Crowner</h3>
-    <p>Are you ready to rise? Join events, create content, and earn your place among legends. The journey begins now.</p>
+    <p>Start free. Prove yourself. Climb through ranks. Create content. Join battles. And maybe, just maybe, earn your place in the Crown. The journey begins now.</p>
+    <a class="button" href="https://sites.google.com/view/lightmnshcommunity/home" target="_blank">Join the Community</a>
   </div>  <footer>
-    &copy; 2025 Light Mnsh Gamer. All Rights Reserved.
+    &copy; 2025 Light Mnsh Gamer. Designed with pride for the crown.
   </footer>
 </body>
 </html>
